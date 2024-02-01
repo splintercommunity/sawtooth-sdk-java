@@ -3,7 +3,7 @@ Sawtooth Java SDK Documentation
 
 This guide describes how to use the Sawtooth Java SDK to develop a client
 application for
-`Hyperledger Sawtooth <https://sawtooth.hyperledger.org/docs/core/releases/latest/>`_.
+`Hyperledger Sawtooth <https://sawtooth.splinter.dev/>`_.
 
 .. toctree::
    :maxdepth: 2
