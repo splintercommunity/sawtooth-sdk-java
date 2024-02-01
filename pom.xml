@@ -27,7 +27,7 @@
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>"Java SDK for interacting with the Sawtooth distributed ledger framework"</description>
-    <url>https://sawtooth.hyperledger.org</url>
+    <url>https://sawtooth.splinter.dev</url>
 
     <licenses>
         <license>
@@ -39,15 +39,14 @@
     <developers>
         <developer>
             <name>Sawtooth Developers</name>
-            <email>sawtooth@lists.hyperledger.org</email>
-            <organizationUrl>https://sawtooth.hyperledger.org</organizationUrl>
+            <organizationUrl>https://sawtooth.splinter.dev</organizationUrl>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/hyperledger/sawtooth-sdk-java.git</connection>
-        <developerConnection>scm:git:ssh://github.com:hyperledger/sawtooth-sdk-java.git</developerConnection>
-        <url>http://github.com/hyperledger/sawtooth-sdk-java/tree/master</url>
+        <connection>scm:git:git://github.com/splintercommunity/sawtooth-sdk-java.git</connection>
+        <developerConnection>scm:git:ssh://github.com:splintercommunity/sawtooth-sdk-java.git</developerConnection>
+        <url>http://github.com/splintercommunity/sawtooth-sdk-java/tree/main</url>
     </scm>
 
     <modules>

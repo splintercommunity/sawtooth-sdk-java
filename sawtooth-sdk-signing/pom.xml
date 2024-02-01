@@ -30,7 +30,7 @@
 
     <name>${project.parent.groupId}:${project.artifactId}</name>
     <description>"Java SDK cryptographic tools for signing and verifying header signatures in the Sawtooth distributed ledger"</description>
-    <url>https://sawtooth.hyperledger.org</url>
+    <url>https://sawtooth.splinter.dev/</url>
 
     <licenses>
         <license>

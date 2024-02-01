@@ -30,7 +30,7 @@
 
     <name>${project.parent.groupId}:${project.artifactId}</name>
     <description>"Java classes generated from Sawtooth proto definition files, to interact with the component, consensus, and other validator interfaces"</description>
-    <url>https://sawtooth.hyperledger.org</url>
+    <url>https://sawtooth.splinter.dev/</url>
 
     <licenses>
         <license>

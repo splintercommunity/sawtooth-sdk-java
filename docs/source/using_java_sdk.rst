@@ -4,7 +4,7 @@ Client: Building and Submitting Transactions
 
 The process of encoding information to be submitted to a distributed ledger is
 generally non-trivial. A series of cryptographic safeguards are used to
-confirm identity and data validity. Hyperledger Sawtooth is no different, but
+confirm identity and data validity. Sawtooth is no different, but
 the Java SDK provides client functionality that handles
 most of these details and greatly simplifies the process of making changes to
 the blockchain.
@@ -117,7 +117,7 @@ blockchain. They are composed of a binary payload, a binary-encoded
 *TransactionHeader* with some cryptographic safeguards and metadata about how
 it should be handled, and a signature of that header. It would be worthwhile
 to familiarize yourself with the information in  `Transactions and Batches
-<https://sawtooth.hyperledger.org/docs/core/releases/latest/architecture/transactions_and_batches.html>`_,
+<https://sawtooth.splinter.dev/docs/1.2/architecture/transactions_and_batches.html>`_,
 particularly the definition of TransactionHeaders.
 
 
@@ -183,8 +183,7 @@ SHA-512 hash of the payload bytes.
    key that will later be used to sign a Transaction's Batch, and
    *dependencies* are the *header signatures* of Transactions that must be
    committed before this one (see `TransactionHeaders
-   <https://sawtooth.hyperledger.org/docs/core/releases/latest/
-   architecture/transactions_and_batches.html>`_).
+   <https://sawtooth.splinter.dev/docs/1.2/architecture/transactions_and_batches.html>`_).
 
 .. note::
 
@@ -196,9 +195,7 @@ SHA-512 hash of the payload bytes.
 
    Note that the methods for assigning and validating addresses are entirely up
    to the Transaction Processor. In the case of IntegerKey, there are `specific
-   rules to generate valid addresses <https://sawtooth.hyperledger.org/docs/core/
-   releases/latest/transaction_family_specifications/
-   integerkey_transaction_family.html#addressing>`_, which must be followed or
+   rules to generate valid addresses <https://sawtooth.splinter.dev/docs/1.2/transaction_family_specifications/integerkey_transaction_family.html#addressing>`_, which must be followed or
    Transactions will be rejected. You will need to follow the addressing rules
    for whichever Transaction Family you are working with.
 
