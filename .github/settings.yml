@@ -15,7 +15,7 @@
 repository:
   # See https://developer.github.com/v3/repos/#edit for all available settings.
   name: sawtooth-sdk-java
-  homepage: https://wiki.hyperledger.org/display/sawtooth
+  homepage: https://sawtooth.splinter.dev/
   private: false
   has_issues: true
   has_projects: false
