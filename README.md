@@ -1,6 +1,6 @@
-![Hyperledger Sawtooth](https://raw.githubusercontent.com/hyperledger/sawtooth-core/master/images/sawtooth_logo_light_blue-small.png)
+![Sawtooth](https://raw.githubusercontent.com/splintercommunity/sawtooth-core/master/images/sawtooth_logo_light_blue-small.png)
 
-# Hyperledger Sawtooth Java SDK
+# Sawtooth Java SDK
 
 ## Install Sawtooth Java SDK from Maven Central Repository
 
@@ -18,7 +18,7 @@
 
 ```xml
     <dependency>
-        <groupId>org.hyperledger.sawtooth</groupId>
+        <groupId>org.hyperledger.sawtooth</group>
         <artifactId>sawtooth-sdk-signing</artifactId>
         <version>v0.1.2</version>
     </dependency>
@@ -28,7 +28,7 @@
 
 ```xml
     <dependency>
-        <groupId>org.hyperledger.sawtooth</groupId>
+        <groupId>org.hyperledger.sawtooth</group>
         <artifactId>sawtooth-sdk-protos</artifactId>
         <version>v0.1.2</version>
     </dependency>
@@ -36,9 +36,9 @@
 
 ## Examples (sawtooth-sdk-java/examples)
 * xo_java
-    - [transaction family specification](https://sawtooth.hyperledger.org/docs/core/releases/latest/transaction_family_specifications/xo_transaction_family.html)
+    - [transaction family specification](https://sawtooth.splinter.dev/docs/1.2/transaction_family_specifications/xo_transaction_family.html)
 * intkey_java
-    - [transaction family specification](https://sawtooth.hyperledger.org/docs/core/releases/latest/transaction_family_specifications/integerkey_transaction_family.html)
+    - [transaction family specification](https://sawtooth.splinter.dev/docs/1.2/transaction_family_specifications/integerkey_transaction_family.html)
 * xo_android_client
     - An Android client for the XO transaction family, written in Kotlin
 
@@ -50,7 +50,7 @@
 Requirements:
 * Maven 3
 
-Pull requests against the repo at [https://github.com/hyperledger/sawtooth-sdk-java](https://github.com/hyperledger/sawtooth-sdk-java)
+Pull requests against the repo at [https://github.com/splintercommunity/sawtooth-sdk-java](https://github.com/splintercommunity/sawtooth-sdk-java)
 are automatically built using the Jenkinsfile in the repository.
 
 Important build steps in the Jenkinsfile:
@@ -59,4 +59,6 @@ Important build steps in the Jenkinsfile:
 
 #### Make A Pull Request
 
-Follow the guidelines in the [Contributing documentation](https://sawtooth.hyperledger.org/docs/core/releases/latest/community/contributing.html) for making a pull request.
+Follow the guidelines in the [Contributing
+documentation](https://sawtooth.splinter.dev/community/contributing.html) for
+making a pull request.
