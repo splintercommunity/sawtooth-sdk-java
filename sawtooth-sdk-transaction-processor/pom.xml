@@ -30,7 +30,7 @@
 
     <name>${project.parent.groupId}:${project.artifactId}</name>
     <description>"Code necessary to write a Sawtooth transaction processor in Java"</description>
-    <url>https://sawtooth.hyperledger.org</url>
+    <url>https://sawtooth.splinter.dev/</url>
 
     <licenses>
         <license>
